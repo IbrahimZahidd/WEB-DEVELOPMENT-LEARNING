@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTools Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to DevTools Demo!</h1>
+        <p id="message">Click the button below to see an effect!</p>
+    </header>
+
+    <main>
+        <!-- Using inline onclick events in HTML -->
+        <button id="changeTextBtn" onclick="onClickEvent('text')">Change Text</button>
+        <button id="changeColorBtn" onclick="onClickEvent('color')">Change Color</button>
+        <p class="info">This is a paragraph with some <span>styled text.</span></p>
+        <div class="container">
+            <p>This is inside a container!</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created using DevTools for debugging!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

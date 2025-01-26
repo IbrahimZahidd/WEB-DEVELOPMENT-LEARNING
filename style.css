@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Adding smooth transition */
+}
+
+/* Hover effect on the button */
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Info section styling */
+.info {
+  color: #333;
+}
+
+/* Add hover effect to the message */
+#message:hover {
+  background-color: #ff6347; /* Tomato color on hover */
+  color: white;
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.info span {
+  color: #ff6347;
+}
+
+/* Container styling */
+.container {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
